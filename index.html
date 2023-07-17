@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body{
+            background-color: rgb(123, 161, 161);
+        }
+        
+        .navigation {
+            background-color: black;
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            margin-left: 25%;
+        }
+
+        .nav_items {
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 25px 25px;
+            list-style: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .info {
+            background-color: rgb(216, 216, 216);
+        }
+
+        .tab {
+            margin-left: 19%;
+            padding: 30px 0px;
+        }
+
+        table .t_data {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 0px 130px;
+            font-size: 1.2rem
+        }
+
+
+        img {
+            margin-top: 10px;
+            margin-left: 310px;
+        }
+
+        .first {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .second {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .link {
+            font-size: 25px;
+            margin-top: 10px;
+            color: white;
+            background-color: orange;
+            width: 22%;
+            padding: 4px;
+        }
+
+        .input {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .t_inform {
+            margin-top: 15px;
+            margin-left: 23%;
+        }
+        footer{
+            background-color: black;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li class="nav_items">Home</li>
+            <li class="nav_items">About</li>
+            <li class="nav_items">Services</li>
+            <li class="nav_items">Clients</li>
+            <li class="nav_items">Contact Us</li>
+        </ul>
+    </nav>
+    <div class="info">
+        <table class="tab">
+            <tr>
+                <td class="t_data"> <strong>MY Business</strong></td>
+                <td class="t_data"><strong>Call us Today!</strong></td>
+            </tr>
+            <tr>
+                <td class="t_data">Website</td>
+                <td class="t_data">1-800-000-0000</td>
+            </tr>
+        </table>
+    </div>
+    <img src="picture.jpg" alt="" width="650px" height="300px">
+    <p class="first"> This is my company Website </p>
+    <p class="second">Dream. Plan. Create</p>
+    <center>
+        <p class="link"><a href="http://google.com">Contact Us Today!</a></p>
+    </center>
+    <div class="input">
+        <label for="">Register for our Newsletter:</label> <br>
+        <input type="text"></input>
+        <input type="button" value="Submit">
+    </div>
+
+    <table class="t_inform" border="1" width="60%" cellspacing="5" cellpadding="5">
+        <tr>
+            <td style="font-size: 1.3rem;"> <strong>About Us</strong></td>
+            <td style="font-size: 1.2rem;"><strong>Our Vision</strong></td>
+            <td style="font-size: 1.2rem;"><strong>Services</strong></td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui molestias sunt, facere, vitae
+                adipisci minus
+                itaque similique molestiae reiciendis asperiores facilis cupiditate hic in? Voluptate dolore
+                excepturi a
+                quae debitis iste illo ipsa, quia aliquam possimus provident accusamus rerum dolorum facere
+                delectus cumque
+                omnis repellendus magnam! Veritatis delectus possimus et!</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui molestias sunt, facere, vitae
+                adipisci minus
+                itaque similique molestiae reiciendis asperiores facilis cupiditate hic in? Voluptate dolore
+                excepturi a
+                quae debitis iste illo ipsa, quia aliquam possimus provident accusamus rerum dolorum facere
+                delectus cumque
+                omnis repellendus magnam! Veritatis delectus possimus et!
+            </td>
+            <td>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui molestias sunt, facere, vitae
+                adipisci minus
+                itaque similique molestiae reiciendis asperiores facilis cupiditate hic in? Voluptate dolore
+                excepturi a
+                quae debitis iste illo ipsa, quia aliquam possimus provident accusamus rerum dolorum facere
+                delectus cumque
+                omnis repellendus magnam! Veritatis delectus possimus et!
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        &copy 2015 by MyBusiness Website
+    </footer>
+</body>
+
+</html>
